@@ -90,9 +90,34 @@ a {
 .date-and-weather-info {
   font-size: 10px;
 }
+
+.weather-forecast-date {
+  text-align: center;
+}
+
+.weather-forecast-icon {
+  font-size: 48px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #71a0a5;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
+
+.weather-forecast-temperatures strong {
+  color: #77628c;
+}
 .footer {
-  padding: 0px 0 0 0;
+  padding: 0px 10px 0 0;
   text-align: center;
   font-size: 10px;
   font-weight: lighter;
+  margin: 0 10px;
 }
