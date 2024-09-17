@@ -20,6 +20,11 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 20px;
 }
+
+.app header {
+  flex-basis: 40%;
+}
+
 .main-display {
   border-right: 1px solid #71a0a53d;
   padding: 5px 0px 5px 5px;
@@ -89,7 +94,7 @@ a {
 }
 .date-and-weather-info {
   font-size: 10px;
-  width: 100%;
+  flex-basis: 60%;
 }
 
 .weather-forecast-date {
