@@ -54,7 +54,7 @@ a {
   border-radius: 5px;
   padding: 6px;
   color: rgb(12, 12, 12);
-  width: 150px;
+  width: 160px;
   margin-top: 6px;
 }
 
@@ -72,7 +72,7 @@ a {
   .current-city {
     padding: 0;
     margin: 0;
-    font-size: 39px;
+    font-size: 42px;
   }
   .current-day {
     font-size: 15px;
@@ -85,9 +85,9 @@ a {
 }
 .description {
   font-weight: bold;
-  margin: 0 0 5px 0;
+  margin: 0 10px 10px 0;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
   color: #71a0a5;
 }
 .date-and-weather-info strong {
@@ -97,14 +97,18 @@ a {
   font-size: 10px;
   flex-basis: 60%;
 }
-
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
 .weather-forecast-date {
   text-align: center;
 }
 
 .weather-forecast-icon {
-  font-size: 48px;
+  font-size: 35px;
   text-align: center;
+  margin-bottom: -10px;
 }
 
 .weather-forecast-temperatures {
@@ -112,10 +116,12 @@ a {
   color: #71a0a5;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 .weather-forecast-temperature {
-  padding: 0 10px;
+  padding: 0 8px;
+  margin-top: 0px;
 }
 
 .weather-forecast-temperatures strong {
