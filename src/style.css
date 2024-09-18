@@ -29,6 +29,8 @@ a {
   border-right: 1px solid #71a0a53d;
   padding: 5px 0px 5px 5px;
   margin-right: 20px;
+  height: 100%;
+  box-sizing: border-box;
 }
 .temperature-visual {
   display: flex;
