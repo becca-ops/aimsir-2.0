@@ -106,7 +106,9 @@ a {
 }
 
 .weather-forecast-icon {
-  font-size: -50px;
+  width: 65px;
+  height: 65px;
+  display: block;
 }
 
 .weather-forecast-temperatures {
@@ -118,7 +120,7 @@ a {
 }
 
 .weather-forecast-temperature {
-  padding: 0 8px;
+  padding: 0 4px;
   margin-top: 0px;
 }
 
